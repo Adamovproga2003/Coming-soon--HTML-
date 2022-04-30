@@ -1,0 +1,117 @@
+@import './font/flaticon.css';
+
+body{
+	margin: 0;
+	padding: 0;
+	background: url('../assets/images/bg.jpg') no-repeat;
+	background-size: cover;
+	text-align: center;
+	display: flex;
+    flex-direction: column;
+    justify-content: center;
+	height: 100vh;
+	font-family: 'Montserrat', sans-serif;
+	color: white;
+	text-transform: uppercase;
+	box-sizing: border-box;
+}
+.time-container{
+	display: flex;
+	justify-content: center;
+	color: white;
+}
+
+.time-container div{
+	margin: 0 25px;
+}
+
+.coming-h1{
+	color: #FD3267;
+}
+
+h1{
+	font-size: 50px;
+	font-weight: 600;
+}
+
+h3{
+	font-weight: 500;
+}
+
+.time-container{
+	margin: 30px 0 60px 0;
+}
+
+.time h1{
+	margin: 0;
+}
+
+.time h5{
+	color: #FD3267;
+	font-size: 10px;
+	margin: 0;
+}
+
+.logo-container img{
+	width: 50px;
+}
+
+.email-input{
+	border: 1px solid #F3F3F3;
+	outline: none;
+	background-color: transparent;
+	color: white;
+	padding: 10px;
+	width: 280px;
+	font-size: 12px;
+	margin: 0 5px;
+	font-family: 'Montserrat', sans-serif;
+}
+
+.email-input::placeholder{
+	color: #F3F3F3;
+	text-transform: uppercase;
+	font-family: 'Montserrat', sans-serif;
+}
+
+
+.update-button{
+	margin: 0 5px;
+	border: 1px solid #FD3267;
+	color: #FD3267;
+	background-color: transparent;
+	padding: 10px 20px;
+	text-transform: uppercase;
+	font-family: 'Montserrat', sans-serif;
+	font-size: 12px;
+	font-weight: 500;
+	transition: background-color 0.3s linear, color 0.3s linear;
+}
+
+.update-button:hover{
+	background-color: #FD3267;
+	color: black;
+	cursor: pointer;
+}
+
+.social-container{
+	position: absolute;
+	bottom: 20px;
+	left: 40%;
+}
+
+
+.social-container a {
+	text-decoration: none;
+	color: white;
+	transition: color 0.3s linear;
+}
+
+.social-container a:hover{
+	color: #FD3267;
+}
+
+::selection{
+	background-color: #CE2855;
+	color: black;
+}
